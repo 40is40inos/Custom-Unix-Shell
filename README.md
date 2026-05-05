@@ -12,7 +12,7 @@ A lightweight Unix-like shell implemented in C, supporting basic command executi
 - **Built-in Commands**: Includes support for changing directories (`chdir`).
 - **Interactive Prompt**: Displays the current working directory and user context.
 
-## 🛠️ Technical Details
+## Technical Details
 - Implements process creation using `fork()` and `execvp()`.
 - Manages inter-process communication via `pipe()` and `dup2()`.
 - Handles file operations using the standard Unix file API.
