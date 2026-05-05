@@ -2,7 +2,7 @@
 
 A lightweight Unix-like shell implemented in C, supporting basic command execution, redirection, pipelining, process management, and inter-process communication features.
 
-## 🚀 Features
+## Features
 - **Command Execution**: Execute standard system programs with arguments.
 - **Pipes (`|`)**: Support for connecting the output of one command to the input of another.
 - **I/O Redirection**:
@@ -17,7 +17,7 @@ A lightweight Unix-like shell implemented in C, supporting basic command executi
 - Manages inter-process communication via `pipe()` and `dup2()`.
 - Handles file operations using the standard Unix file API.
 
-## ⚙️ Compilation & Usage
+## Compilation & Usage
 ### Building
 Run the following command in the project root:
 ```bash
